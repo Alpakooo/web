@@ -1,6 +1,51 @@
-/* This is the style.css file */
 body {
-    background-color: #0000cf; /* This is a dark blue shade */
-    color: white; /* This sets the text color to white */
-  }
-  
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+section {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
