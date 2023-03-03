@@ -3,12 +3,24 @@
 <head>
 	<title>My Website</title>
 	<style>
+		/* Add this to your CSS file */
 		body {
-			background-color: #222;
-			color: #fff;
-			font-family: 'Open Sans', sans-serif;
-			text-align: center;
+			position: relative;
+			margin-bottom: 50px; /* Adjust as necessary */
 		}
+
+		body::after {
+			content: "";
+			display: block;
+			height: 100px; /* Adjust to match margin-bottom of body */
+			width: 100%;
+			background-color: #333; /* Change to your desired color */
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: -1;
+		}
+
 		header {
 			display: flex;
 			justify-content: space-between;
